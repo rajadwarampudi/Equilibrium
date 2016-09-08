@@ -4,7 +4,7 @@ public class Solution {
 	public int solution(int[] A) {
 		int i = 0;                       //forward index
 		int j = A.length-1;              //reverse index
-		int leftSum = 0,rightSum = 0;
+		long leftSum = 0,rightSum = 0;
 		
 		while(i < j)
 			leftSum += A[i++];         //calculating the total sum first
